@@ -1,0 +1,160 @@
+body {
+    background-image: url("./Hogwarts.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.h1-container {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Cinzel Decorative';
+    font-size: 20px;
+    padding: 5px;
+    margin: 2px;
+    color: white;
+
+}
+
+.h2-container {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Cinzel Decorative';
+    margin: 0;
+    padding: none;
+    animation: shine 5s infinite, blink 5s infinite;
+}
+
+@keyframes shine {
+    0% {
+        text-shadow: 0 0 10px #fff;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff8, 0 0 40px #ff8;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #fff;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.h3-container {
+    font-family: 'Eater';
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+#video-container {
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+    border-radius: 0%;
+    padding: none;
+
+}
+
+#sign-in {
+    text-align: center;
+    font-family: 'Chewy';
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    animation: shine 1s infinite, blink 3s infinite;
+
+}
+
+.nav-content {
+    display: block;
+    /* Makes the span behave like a block-level element */
+    font-family: 'Creepster', cursive;
+    margin-top: 58px;
+    /* Adjusts the vertical position */
+    text-align: center;
+    /* Centers the text and link */
+}
+
+.nav-content p,
+.nav-content a {
+    display: block;
+    /* Ensures each element starts on a new line */
+    margin: 20px 0;
+    /* Adds vertical spacing between elements */
+}
+
+#form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #f1e4e4;
+    font-family: 'Delius Swash Caps';
+    font-size: 15px;
+}
+
+#form input[type="text"],
+#form select,
+#form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+#form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#form button {
+    background: #4a4a4a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#form button:hover {
+    background: #666;
+}
+
+#form ul {
+    list-style: none;
+    padding: 0;
+}
+
+#form li {
+    margin-bottom: 15px;
+}
+
+p:hover {
+    color: #dbd870
+}
+
+.user-comments {
+    padding-top: 0;
+
+}
